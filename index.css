@@ -13,8 +13,14 @@ body {
   gap: 5px;
 }
 
+.acrilic-painting {
+  height: 430px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 .painting {
-  height: 400px;
+  height: 420px;
   padding: 10px;
   border-radius: 5px;
 }
@@ -25,8 +31,20 @@ body {
   border-radius: 5px;
 }
 
+.paintings {
+  height: 400px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.batic {
+  height: 330px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 .paint {
-  height: 350px;
+  height: 400px;
   padding: 10px;
   border-radius: 5px;
 }
@@ -36,6 +54,12 @@ body {
 }
 
 .weaving {
+  height: 450px;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+.hand-weaving {
   height: 450px;
   padding: 0 10px;
   border-radius: 5px;
@@ -55,8 +79,13 @@ h1 {
     margin: 10px;
   }
 
+  .acrilic-painting {
+    height: 290px;
+    padding: 5px;
+  }
+
   .painting {
-    height: 270px;
+    height: 280px;
     padding: 5px;
   }
 
@@ -65,12 +94,28 @@ h1 {
     padding: 5px;
   }
 
-  .paint {
+  .paintings {
+    height: 260px;
+    padding: 5px;
+  }
+
+  .batic {
     height: 220px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .paint {
+    height: 260px;
     padding: 5px;
   }
 
   .weaving {
+    height: 300px;
+    padding: 0 5px;
+  }
+
+  .hand-weaving {
     height: 300px;
     padding: 0 5px;
   }
@@ -81,6 +126,11 @@ h1 {
     margin: 10px;
   }
 
+  .acrilic-painting {
+    height: 180px;
+    padding: 5px;
+  }
+
   .painting {
     height: 180px;
     padding: 5px;
@@ -91,12 +141,27 @@ h1 {
     padding: 5px;
   }
 
+  .paintings {
+    height: 180px;
+    padding: 5px;
+  }
+
+  .batic {
+    height: 153px;
+    padding: 5px;
+  }
+
   .paint {
-    height: 150px;
+    height: 180px;
     padding: 5px;
   }
 
   .weaving {
+    height: 200px;
+    padding: 0 5px;
+  }
+
+  .hand-weaving {
     height: 210px;
     padding: 0 5px;
   }
@@ -114,6 +179,15 @@ h1 {
     gap: 5px;
   }
 
+  .acrilic-painting {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    gap: 5px;
+    height: 880px;
+    padding: 10px;
+  }
+
   .painting {
     display: grid;
     grid-template-columns: 1fr;
@@ -132,12 +206,30 @@ h1 {
     padding: 10px;
   }
 
+  .paintings {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    gap: 5px;
+    height: 450px;
+    padding: 10px;
+  }
+
+  .batic {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    gap: 5px;
+    height: 500px;
+    padding: 10px;
+  }
+
   .paint {
     display: grid;
     grid-template-columns: 1fr;
     margin: auto;
     gap: 5px;
-    height: 350px;
+    height: 500px;
     padding: 10px;
   }
 
@@ -154,6 +246,15 @@ h1 {
     margin: auto;
     gap: 5px;
     height: 500px;
+    padding: 10px;
+  }
+
+  .hand-weaving {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    gap: 5px;
+    height: 750px;
     padding: 10px;
   }
 
@@ -184,6 +285,15 @@ h1 {
     gap: 5px;
   }
 
+  .acrilic-painting {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    gap: 5px;
+    height: 480px;
+    padding: 10px;
+  }
+
   .painting {
     display: grid;
     grid-template-columns: 1fr;
@@ -202,12 +312,30 @@ h1 {
     padding: 10px;
   }
 
-  .paint {
+  .paintings {
     display: grid;
     grid-template-columns: 1fr;
     margin: auto;
     gap: 5px;
     height: 250px;
+    padding: 10px;
+  }
+
+  .batic {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    gap: 5px;
+    height: 280px;
+    padding: 10px;
+  }
+
+  .paint {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    gap: 5px;
+    height: 300px;
     padding: 10px;
   }
 
@@ -224,6 +352,15 @@ h1 {
     margin: auto;
     gap: 5px;
     height: 320px;
+    padding: 10px;
+  }
+
+  .hand-weaving {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    gap: 5px;
+    height: 480px;
     padding: 10px;
   }
 
@@ -249,6 +386,15 @@ h1 {
     gap: 5px;
   }
 
+  .acrilic-painting {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    gap: 5px;
+    height: 430px;
+    padding: 10px;
+  }
+
   .painting {
     display: grid;
     grid-template-columns: 1fr;
@@ -264,6 +410,24 @@ h1 {
     margin: auto;
     gap: 5px;
     height: 160px;
+    padding: 10px;
+  }
+
+  .paintings {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    gap: 5px;
+    height: 210px;
+    padding: 10px;
+  }
+
+  .batic {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    gap: 5px;
+    height: 250px;
     padding: 10px;
   }
 
@@ -291,6 +455,15 @@ h1 {
     height: 290px;
     padding: 10px;
   }
+
+  .hand-weaving {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    gap: 5px;
+    height: 435px;
+    padding: 10px;
+  }
 }
 
 @media only screen and (max-width: 370px) {
@@ -303,6 +476,15 @@ h1 {
     grid-template-columns: 1fr;
     margin: auto;
     gap: 5px;
+  }
+
+  .acrilic-painting {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    gap: 5px;
+    height: 350px;
+    padding: 10px;
   }
 
   .painting {
@@ -320,6 +502,24 @@ h1 {
     margin: auto;
     gap: 5px;
     height: 140px;
+    padding: 10px;
+  }
+
+  .paintings {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    gap: 5px;
+    height: 180px;
+    padding: 10px;
+  }
+
+  .batic {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    gap: 5px;
+    height: 210px;
     padding: 10px;
   }
 
@@ -345,6 +545,15 @@ h1 {
     margin: auto;
     gap: 5px;
     height: 250px;
+    padding: 10px;
+  }
+
+  .hand-weaving {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    gap: 5px;
+    height: 380px;
     padding: 10px;
   }
 }
